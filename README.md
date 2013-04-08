@@ -1,7 +1,10 @@
 leap_patterns
 =============
 
-Simple patterns recognition example using Leap Motion device.
+Simple Unity example showing how to detect gesture patterns by straightening the point collection from the leap frames, using the Ramer-Douglas-Peucker algorithm, and then comparing the sharp turns made during the gesture.
+
+For more information on the Ramer-Douglas-Peucker algorithm, check http://en.wikipedia.org/wiki/Ramer-Douglas-Peucker_algorithm
+
 
 License info:
 
