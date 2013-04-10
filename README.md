@@ -1,15 +1,23 @@
-Unity 3D Pattern Recognition
+Leap Motion - Unity 3D Pattern Recognition
 =============
 
-Simple Unity example showing how to detect gesture patterns by straightening the point collection from the leap frames, using the Ramer-Douglas-Peucker algorithm, and then comparing the sharp turns made during the gesture.
+Simple Unity example showing how to detect gesture patterns by straightening the point collection 
+from the leap frames, using the Ramer-Douglas-Peucker algorithm, and then comparing the sharp 
+turns made during the gesture.
 
-For more information on the Ramer-Douglas-Peucker algorithm, check http://en.wikipedia.org/wiki/Ramer-Douglas-Peucker_algorithm
+For more information on the Ramer-Douglas-Peucker algorithm, check 
+http://en.wikipedia.org/wiki/Ramer-Douglas-Peucker_algorithm
+
+The examples shows the path that the Leap Motion device recognized and the points being considered
+when detecting the pattern made. The small squares are points still considered after a high precision
+passing of the Ramer-Douglas-Peucker algorithm, and the big squares are points considered after a
+lower precision pass on the algorithm, which is done if no gestures were detected with the first.
 
 Gestures this example is able to detect:
 
-![Downwards Zig-Zag Gesture](https://raw.github.com/DaniloT/leap_patterns/master/Assets/Textures/gesture_downzig.jpg)  
-![Rightwards Zig-Zag Gesture](https://raw.github.com/DaniloT/leap_patterns/master/Assets/Textures/gesture_rightzig.jpg)  
-![Square Gesture](https://raw.github.com/DaniloT/leap_patterns/master/Assets/Textures/gesture_square.jpg)
+![Downwards Zig-Zag Gesture](https://raw.github.com/DaniloT/leap_patterns/master/Assets/Textures/gesture_downzig.jpg "Downwards Zig-Zag")  
+![Rightwards Zig-Zag Gesture](https://raw.github.com/DaniloT/leap_patterns/master/Assets/Textures/gesture_rightzig.jpg "Rightwards Zig-Zag")  
+![Square Gesture](https://raw.github.com/DaniloT/leap_patterns/master/Assets/Textures/gesture_square.jpg "Square")
 
 
 
