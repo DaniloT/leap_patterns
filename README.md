@@ -8,6 +8,11 @@ turns made during the gesture.
 For more information on the Ramer-Douglas-Peucker algorithm, check 
 http://en.wikipedia.org/wiki/Ramer-Douglas-Peucker_algorithm
 
+The examples shows the path that the Leap Motion device recognized and the points being considered
+when detecting the pattern made. The small squares are points still considered after a high precision
+passing of the Ramer-Douglas-Peucker algorithm, and the big squares are points considered after a
+lower precision pass on the algorithm, which is done if no gestures were detected with the first.
+
 Gestures this example is able to detect:
 
 ![Downwards Zig-Zag Gesture](https://raw.github.com/DaniloT/leap_patterns/master/Assets/Textures/gesture_downzig.jpg "Downwards Zig-Zag")  
