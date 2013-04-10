@@ -15,9 +15,10 @@ lower precision pass on the algorithm, which is done if no gestures were detecte
 
 Gestures this example is able to detect:
 
-![Downwards Zig-Zag Gesture](https://raw.github.com/DaniloT/leap_patterns/master/Screenshots/gesture_downzig.jpg "Downwards Zig-Zag")  
-![Rightwards Zig-Zag Gesture](https://raw.github.com/DaniloT/leap_patterns/master/Screenshots/gesture_rightzig.jpg "Rightwards Zig-Zag")  
-![Square Gesture](https://raw.github.com/DaniloT/leap_patterns/master/Screenshots/gesture_square.jpg "Square")
+![Downwards Zig-Zag Gesture](https://raw.github.com/DaniloT/leap_patterns/master/Screenshots/gesture_downzig.jpg "Downwards Zig-Zag")  ![Rightwards Zig-Zag Gesture](https://raw.github.com/DaniloT/leap_patterns/master/Screenshots/gesture_rightzig.jpg "Rightwards Zig-Zag")   ![Square Gesture](https://raw.github.com/DaniloT/leap_patterns/master/Screenshots/gesture_square.jpg "Square")
+
+Video showing the detection:
+http://www.youtube.com/watch?v=T26jokJPqRk
 
 
 
