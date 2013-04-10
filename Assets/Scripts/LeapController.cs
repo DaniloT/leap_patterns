@@ -73,7 +73,7 @@ public class LeapController : MonoBehaviour {
 	/// </summary>
 	public void OnGUI()	{
 		GUIStyle style = new GUIStyle();
-		style.fontSize = 40;
+		style.fontSize = 100;
 		GUI.Label(new Rect(CANVAS_SIZE/2.0f - 75.0f, 30.0f, 150.0f, 50.0f), status, style);
 	}
 	
