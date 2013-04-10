@@ -6,7 +6,10 @@ Simple Unity example showing how to detect gesture patterns by straightening the
 For more information on the Ramer-Douglas-Peucker algorithm, check http://en.wikipedia.org/wiki/Ramer-Douglas-Peucker_algorithm
 
 Gestures this example is able to detect:
-![Downwards Zig-Zag Gesture](https://raw.github.com/DaniloT/leap_patterns/master/Assets/Textures/gesture_downzig.jpg)  ![Rightwards Zig-Zag Gesture](https://raw.github.com/DaniloT/leap_patterns/master/Assets/Textures/gesture_rightzig.jpg)  ![Square Gesture](https://raw.github.com/DaniloT/leap_patterns/master/Assets/Textures/gesture_square.jpg)
+
+![Downwards Zig-Zag Gesture](https://raw.github.com/DaniloT/leap_patterns/master/Assets/Textures/gesture_downzig.jpg)  
+![Rightwards Zig-Zag Gesture](https://raw.github.com/DaniloT/leap_patterns/master/Assets/Textures/gesture_rightzig.jpg)  
+![Square Gesture](https://raw.github.com/DaniloT/leap_patterns/master/Assets/Textures/gesture_square.jpg)
 
 
 
