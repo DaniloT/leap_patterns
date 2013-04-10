@@ -1,9 +1,13 @@
-leap_patterns
+Unity 3D Pattern Recognition
 =============
 
 Simple Unity example showing how to detect gesture patterns by straightening the point collection from the leap frames, using the Ramer-Douglas-Peucker algorithm, and then comparing the sharp turns made during the gesture.
 
 For more information on the Ramer-Douglas-Peucker algorithm, check http://en.wikipedia.org/wiki/Ramer-Douglas-Peucker_algorithm
+
+Gestures this example is able to detect:
+![Downwards Zig-Zag Gesture](https://raw.github.com/DaniloT/leap_patterns/master/Assets/Textures/gesture_downzig.jpg)  ![Rightwards Zig-Zag Gesture](https://raw.github.com/DaniloT/leap_patterns/master/Assets/Textures/gesture_rightzig.jpg)  ![Square Gesture](https://raw.github.com/DaniloT/leap_patterns/master/Assets/Textures/gesture_square.jpg)
+
 
 
 License info:
